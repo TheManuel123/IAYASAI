@@ -74,10 +74,10 @@ def filtroPol():
     cap.release()
     cv2.destroyAllWindows()
 
-    listElemt = os.listdir(ruCar)
+    listElemt = os.listdir(ruta_carpeta_capturas)
     camtElemt = len(listElemt)
     #print(camtElemt)
-    if  camtElemt >= 30:
+    if  camtElemt >= 10:
         print(camtElemt)
     else:
         print("que brr")
